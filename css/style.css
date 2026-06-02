@@ -477,9 +477,14 @@ p {
         grid-template-columns: 1fr;
     }
 
-    .site-header {
+     .site-header {
         top: 10px;
     }
+}
+
+/* =========================
+   CONTACT PAGE
+========================= */
 
 .dark-logo {
     color: var(--text);
