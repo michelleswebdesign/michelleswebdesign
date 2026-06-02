@@ -410,6 +410,19 @@ p {
     .nav-menu {
         display: none;
     }
+    
+    .nav-menu.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(23, 20, 18, 0.96);
+        padding: 20px;
+        gap: 20px;
+        text-align: center;
+    }
 
     .menu-toggle {
         display: block;
@@ -448,7 +461,7 @@ p {
         padding-top: 120px;
     }
 
-.hero-content .eyebrow {
+ .hero-content .eyebrow {
     max-width: 320px;
     margin: 140px auto 24px;
     font-size: 0.72rem;
@@ -481,20 +494,6 @@ p {
         top: 10px;
     }
 }
-
-.nav-menu.open {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background: rgba(23, 20, 18, 0.96);
-    padding: 20px;
-    gap: 20px;
-    text-align: center;
-}
-
 
 /* =========================
    CONTACT PAGE
