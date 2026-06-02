@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Contact Michelle's Web Design</title>
+
+  <meta name="description" content="Contact Michelle's Web Design for custom websites, ecommerce websites, church websites, and small business web design." />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="page-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo dark-logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">
+          Michelle's
+          <small>Web Design</small>
+        </span>
+      </a>
+
+      <nav class="nav-menu page-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#work">Website Inspiration</a>
+        <a href="index.html#services">Services</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="contact-hero">
+      <div class="container">
+        <p class="eyebrow">Start Your Project</p>
+        <h1>Let’s Build Something Beautiful</h1>
+        <p>
+          Need a website for your business, church, ministry, or online store? I would love to hear more about your project.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-grid">
+
+        <div class="contact-info">
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Ready to Talk?</h2>
+          <p>
+            Send me a message and tell me what kind of website you need. I’ll help you think through the next step.
+          </p>
+
+          <div class="contact-detail">
+            <h3>Email</h3>
+            <a href="mailto:michelleswebdesign@gmail.com">michelleswebdesign@gmail.com</a>
+          </div>
+
+          <div class="contact-detail">
+            <h3>Website</h3>
+            <a href="https://michelleswebdesign.net">michelleswebdesign.net</a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="mailto:michelleswebdesign@gmail.com" method="post" enctype="text/plain">
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="business">Business Name</label>
+          <input type="text" id="business" name="business">
+
+          <label for="project">Project Type</label>
+          <select id="project" name="project">
+            <option value="">Choose One</option>
+            <option value="Business Website">Business Website</option>
+            <option value="Church Website">Church Website</option>
+            <option value="Ecommerce Website">Ecommerce Website</option>
+            <option value="Landing Page">Landing Page</option>
+            <option value="Website Redesign">Website Redesign</option>
+            <option value="Not Sure Yet">Not Sure Yet</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Michelle's Web Design. All rights reserved.</p>
+      <p>Custom websites for small businesses, churches, ministries, and ecommerce brands.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
