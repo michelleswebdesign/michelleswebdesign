@@ -419,15 +419,13 @@ p {
         padding-top: 120px;
     }
 
-    .hero-content .eyebrow {
-        max-width: 320px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 24px;
-        font-size: 0.72rem;
-        letter-spacing: 2px;
-        line-height: 1.8;
-    }
+  .hero-content .eyebrow {
+    max-width: 320px;
+    margin: 40px auto 24px;
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
 
     h1 {
         font-size: 3rem;
