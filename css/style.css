@@ -341,27 +341,28 @@ p {
     background: var(--black);
     color: white;
     text-align: center;
+    padding: 110px 0;
 }
 
-.final-cta p {
-    color: rgba(255,255,255,.8);
-}
-
-.final-cta p {
-    color: rgba(255,255,255,.8);
-    max-width: 500px;
-    margin: 0 auto 40px;
+.final-cta .eyebrow {
+    margin-bottom: 24px;
 }
 
 .final-cta h2 {
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+}
+
+.final-cta p {
+    color: rgba(255,255,255,.8);
+    max-width: 650px;
+    margin: 0 auto;
 }
 
 .final-cta .nav-cta,
 .final-cta .btn {
     display: inline-block;
-    margin-top: 12px;
+    margin-top: 40px;
 }
 
 /* =========================
