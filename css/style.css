@@ -205,6 +205,13 @@ section {
     border-radius: 8px;
 }
 
+.page-header {
+    position: relative;
+    background: var(--bg-soft);
+    padding: 24px 0;
+}
+
+
 .menu-toggle {
     display: none;
 }
