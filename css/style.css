@@ -207,10 +207,10 @@ p {
         rgba(0,0,0,.35),
         rgba(0,0,0,.35)
         ),
-        url('../images/hero.jpg');
+        url('../images/custom-web-design-workspace.webp');
 
     background-size: cover;
-    background-position: center;
+    background-position: center right;
 
     display: flex;
     align-items: center;
