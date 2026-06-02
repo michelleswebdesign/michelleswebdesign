@@ -1,1 +1,399 @@
+/* =========================
+   RESET
+========================= */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2B211C;
+    background: #FFFFFF;
+    line-height: 1.7;
+}
+
+/* =========================
+   GLOBAL
+========================= */
+
+.container {
+    width: min(1180px, calc(100% - 40px));
+    margin: 0 auto;
+}
+
+section {
+    padding: 100px 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: clamp(3rem, 7vw, 5rem);
+    line-height: 1.05;
+}
+
+h2 {
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: #6F625A;
+}
+
+.eyebrow {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 28px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background: #171412;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    border: 1px solid rgba(255,255,255,0.4);
+    color: #FFFFFF;
+}
+
+.btn-secondary:hover {
+    transform: translateY(-2px);
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.site-header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 28px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo-mark {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.logo-text small {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-cta {
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 12px 20px;
+    border-radius: 999px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+
+    background-image:
+    linear-gradient(
+    rgba(15,15,15,0.55),
+    rgba(15,15,15,0.55)
+    ),
+    url('../images/hero.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    color: white;
+}
+
+.hero-content h1 {
+    color: white;
+    margin-bottom: 24px;
+}
+
+.hero-description {
+    color: rgba(255,255,255,0.85);
+    font-size: 1.15rem;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+/* =========================
+   BENEFITS
+========================= */
+
+.benefits {
+    background: #F8F4EF;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+}
+
+.benefit-card {
+    text-align: center;
+}
+
+.benefit-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 12px;
+}
+
+/* =========================
+   SECTION HEADING
+========================= */
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section-heading h2 {
+    margin-bottom: 16px;
+}
+
+/* =========================
+   PORTFOLIO
+========================= */
+
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.work-image {
+    aspect-ratio: 4 / 3;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.placeholder-dark {
+    background: #2B211C;
+    color: white;
+}
+
+.placeholder-light {
+    background: #E8D8C3;
+}
+
+.project-link {
+    color: #2B211C;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* =========================
+   WHY SECTION
+========================= */
+
+.why-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+.why-item {
+    margin-bottom: 36px;
+}
+
+/* =========================
+   CTA
+========================= */
+
+.final-cta {
+    background: #171412;
+    color: white;
+    text-align: center;
+}
+
+.final-cta p {
+    color: rgba(255,255,255,0.8);
+}
+
+.final-cta h2 {
+    margin-bottom: 20px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    background: #0f0f0f;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer p {
+    color: rgba(255,255,255,0.7);
+}
+
+.footer-content {
+    text-align: center;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 992px) {
+
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 768px) {
+
+    section {
+        padding: 70px 0;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        min-height: 90vh;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+}
