@@ -501,14 +501,11 @@ p {
     font-weight: 600;
 }
 
-/* FORM CARD */
-
 .contact-form {
     background: white;
     padding: 40px;
     border-radius: 24px;
     box-shadow: 0 20px 40px rgba(0,0,0,.08);
-
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -523,6 +520,7 @@ p {
 .contact-form select,
 .contact-form textarea {
     width: 100%;
+    display: block;
     padding: 16px;
     border: 1px solid #ddd;
     border-radius: 12px;
@@ -550,10 +548,7 @@ p {
     margin-top: 10px;
 }
 
-/* MOBILE */
-
 @media (max-width: 768px) {
-
     .contact-grid {
         grid-template-columns: 1fr;
         gap: 50px;
@@ -566,5 +561,4 @@ p {
     .contact-form {
         padding: 28px;
     }
-
 }
