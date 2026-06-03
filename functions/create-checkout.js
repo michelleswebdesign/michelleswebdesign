@@ -5,46 +5,47 @@ export async function onRequestPost(context) {
   const { packageCode, addons = [] } = body;
 
   const packages = {
-    EVENT: {
-      name: "Landing Page Event Website Design",
-      amount: 15000
-    },
-    STARTER: {
-      name: "One-Page Website Design",
-      amount: 35000
-    },
-    BUSIN: {
-      name: "Business Website Design",
-      amount: 75000
-    },
-    ECOMM: {
-  name: "Ecommerce Website Design",
-  amount: 120000
+  EVENT: {
+    name: "Landing Page Event Website Design",
+    amount: 15000
+  },
+  STARTER: {
+    name: "One-Page Website Design",
+    amount: 35000
+  },
+  BUSIN: {
+    name: "Business Website Design",
+    amount: 75000
+  },
+  ECOMM: {
+    name: "Ecommerce Website Design",
+    amount: 120000
   },
   BUNDLE: {
     name: "Business Launch Bundle",
     amount: 25000
   }
+};
 
-  const addonPrices = {
-    EXTRA_PAGE: {
-      name: "Additional Page",
-      amount: 7500
-    },
-    CONTENT_HELP: {
-      name: "Content Help",
-      amount: 7500
-    },
-    BRANDING_HELP: {
-      name: "Branding Help",
-      amount: 10000
-    },
-    DOMAIN_SETUP: {
-      name: "Domain / Hosting Setup Assistance",
-      amount: 5000
-    }
-  };
-
+const addonPrices = {
+  EXTRA_PAGE: {
+    name: "Additional Page",
+    amount: 7500
+  },
+  CONTENT_HELP: {
+    name: "Content Help",
+    amount: 7500
+  },
+  BRANDING_HELP: {
+    name: "Branding Help",
+    amount: 10000
+  },
+  DOMAIN_SETUP: {
+    name: "Domain / Hosting Setup Assistance",
+    amount: 5000
+  }
+};
+  
   const selectedPackage = packages[packageCode];
 
   if (!selectedPackage) {
