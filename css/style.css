@@ -530,6 +530,57 @@ section {
 }
 
 /* =========================
+   ABOUT PAGE
+========================= */
+
+.about-section {
+    background: white;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.08);
+}
+
+.about-content h2 {
+    margin-bottom: 24px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-values {
+    background: var(--bg-soft);
+}
+
+.about-story {
+    background: white;
+}
+
+.story-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.story-content h2 {
+    margin-bottom: 24px;
+}
+
+.story-content p {
+    margin-bottom: 20px;
+}
+
+/* =========================
    SERVICES PAGE
 ========================= */
 
@@ -807,6 +858,10 @@ section {
     .why-grid {
         grid-template-columns: 1fr;
     }
+
+   .about-grid {
+    grid-template-columns: 1fr;
+}
 
     .packages-grid {
         grid-template-columns: 1fr;
