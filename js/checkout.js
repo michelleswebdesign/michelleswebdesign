@@ -5,6 +5,10 @@ checkoutButtons.forEach((button) => {
     const originalText = button.textContent;
     const packageCode = button.dataset.package;
 
+    const selectedAddons = Array.from(
+      document.querySelectorAll(`input[data-addon-for="${packageCode}"]:checked`)
+    ).map((checkbox) => checkbox.value);
+
     button.disabled = true;
     button.textContent = "Loading...";
 
@@ -16,7 +20,7 @@ checkoutButtons.forEach((button) => {
         },
         body: JSON.stringify({
           packageCode: packageCode,
-          addons: []
+          addons: selectedAddons
         })
       });
 
