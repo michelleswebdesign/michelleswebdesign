@@ -34,7 +34,7 @@ const addonPrices = {
   },
   CONTENT_HELP: {
     name: "Content Help",
-    amount: 7500
+    amount: 15000
   },
   BRANDING_HELP: {
     name: "Branding Help",
@@ -42,7 +42,7 @@ const addonPrices = {
   },
   DOMAIN_SETUP: {
     name: "Domain / Hosting Setup Assistance",
-    amount: 5000
+    amount: 7500
   }
 };
   
