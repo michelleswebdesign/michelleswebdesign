@@ -112,10 +112,16 @@ section {
     align-items: center;
     justify-content: center;
     padding: 16px 32px;
+    border: none;
     border-radius: 999px;
     text-decoration: none;
     font-weight: 600;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
     transition: all .3s ease;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .btn-primary {
