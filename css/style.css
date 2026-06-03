@@ -610,7 +610,7 @@ section {
 }
 
 .package-image {
-    height: 260px;
+    height: 180px;
     overflow: hidden;
     background: var(--bg-soft);
 }
@@ -621,7 +621,6 @@ section {
     object-fit: contain;
     object-position: center;
     display: block;
-    transition: transform .3s ease;
 }
 
 .package-body {
