@@ -82,7 +82,7 @@ export async function onRequestPost(context) {
 
   params.append("mode", "payment");
   params.append("success_url", `${env.SITE_URL}/success.html`);
-  params.append("cancel_url", `${env.SITE_URL}/packages.html`);
+  params.append("cancel_url", `${env.SITE_URL}/services.html`);
 
   lineItems.forEach((item, index) => {
     params.append(`line_items[${index}][quantity]`, item.quantity);
