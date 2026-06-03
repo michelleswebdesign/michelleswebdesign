@@ -18,10 +18,13 @@ export async function onRequestPost(context) {
       amount: 75000
     },
     ECOMM: {
-      name: "Ecommerce Website Design",
-      amount: 120000
-    }
-  };
+  name: "Ecommerce Website Design",
+  amount: 120000
+  },
+  BUNDLE: {
+    name: "Business Launch Bundle",
+    amount: 25000
+  }
 
   const addonPrices = {
     EXTRA_PAGE: {
