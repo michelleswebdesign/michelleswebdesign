@@ -252,7 +252,7 @@ section {
 }
 
 /* =========================
-   HERO
+   HOMEPAGE HERO
 ========================= */
 
 .hero {
@@ -289,6 +289,24 @@ section {
     flex-wrap: wrap;
 }
 
+/* =========================
+   PAGE HERO
+========================= */
+
+.page-hero {
+    padding: 120px 0 80px;
+    background: var(--bg-soft);
+    text-align: center;
+}
+
+.page-hero h1 {
+    margin-bottom: 24px;
+}
+
+.page-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+}
 /* =========================
    BENEFITS
 ========================= */
@@ -431,21 +449,6 @@ section {
    CONTACT PAGE
 ========================= */
 
-.contact-hero {
-    padding: 120px 0 80px;
-    background: var(--bg-soft);
-    text-align: center;
-}
-
-.contact-hero h1 {
-    margin-bottom: 24px;
-}
-
-.contact-hero p {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
 .contact-section {
     padding: 100px 0;
 }
@@ -529,22 +532,6 @@ section {
 /* =========================
    SERVICES PAGE
 ========================= */
-
-.services-hero {
-    padding: 120px 0 80px;
-    background: var(--bg-soft);
-    text-align: center;
-}
-
-.services-hero h1 {
-    margin-bottom: 20px;
-}
-
-.services-hero p {
-    max-width: 600px;
-    margin: 0 auto;
-    font-size: 1.1rem;
-}
 
 .packages-section {
     padding: 100px 0;
