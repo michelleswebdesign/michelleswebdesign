@@ -170,6 +170,12 @@ section {
     gap: 14px;
 }
 
+.nav-logo {
+    width: 70px;
+    height: auto;
+    flex-shrink: 0;
+}
+
 .logo-mark {
     width: 52px;
     height: 52px;
