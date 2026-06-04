@@ -155,13 +155,13 @@ section {
     padding: 22px 0;
 }
 
-/* Homepage header: sits over hero image */
 .site-header {
     position: absolute;
     top: 0;
     left: 0;
     background: rgba(23, 20, 18, 0.28);
     backdrop-filter: blur(8px);
+    padding-top: env(safe-area-inset-top);
 }
 
 /* Interior page header: sits in normal page flow */
