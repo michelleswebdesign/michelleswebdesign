@@ -166,7 +166,7 @@ section {
 
 .logo {
     text-decoration: none;
-    color: white;
+    color: var(--text);
     display: flex;
     align-items: center;
     gap: 14px;
