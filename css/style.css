@@ -1105,8 +1105,10 @@ section {
     padding: 20px 0;
 }
 
-   .nav-logo {
+  .nav-logo {
     width: 62px;
+    max-width: 62px;
+    max-height: 62px;
 }
 
 .logo {
