@@ -1083,17 +1083,7 @@ section {
         padding: 20px 0;
     }
 
-    .site-header .nav-logo-wrap {
-    width: 105px;
-    max-width: 105px;
-    }
-
-    .page-header .nav-logo-wrap {
-    width: 105px;
-    max-width: 105px;
-    }
-
-    .nav-logo {
+      .nav-logo {
         width: 100%;
         height: auto;
         display: block;
