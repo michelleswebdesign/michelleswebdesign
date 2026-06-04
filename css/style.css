@@ -147,15 +147,24 @@ section {
    HEADER & NAV
 ========================= */
 
+.site-header,
+.page-header {
+    width: 100%;
+    z-index: 1000;
+    padding: 22px 0;
+}
+
 .site-header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    z-index: 1000;
-    padding: 22px 0;
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(8px);
+}
+
+.page-header {
+    position: relative;
+    background: var(--bg-soft);
 }
 
 .nav-container {
@@ -174,7 +183,9 @@ section {
 
 .nav-logo {
     width: 80px;
+    max-width: 80px;
     height: auto;
+    display: block;
     flex-shrink: 0;
 }
 
@@ -193,32 +204,7 @@ section {
 
 .nav-menu {
     display: flex;
-    align-items: center;
-    gap: 36px;
-}
-
-.nav-menu a {
-    color: white;
-    text-decoration: none;
-}
-
-.nav-cta {
-    background: var(--rose);
-    color: white !important;
-    padding: 14px 28px;
-    border-radius: 999px;
-    font-weight: 600;
-    transition: all .3s ease;
-}
-
-.nav-cta:hover {
-    background: var(--rose-dark);
-    transform: translateY(-2px);
-}
-
-.menu-toggle {
-    display: none;
-}
+    align-items: center
 
 /* =========================
    FOOTER
