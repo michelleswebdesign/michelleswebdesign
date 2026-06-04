@@ -185,12 +185,14 @@ section {
     gap: 12px;
 }
 
-.nav-logo {
+.logo .nav-logo {
     width: 80px;
     max-width: 80px;
+    max-height: 80px;
     height: auto;
     display: block;
     flex-shrink: 0;
+    object-fit: contain;
 }
 
 .logo-text {
