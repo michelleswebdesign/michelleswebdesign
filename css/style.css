@@ -684,10 +684,9 @@ section {
 }
 
 .package-addons {
-    margin: 24px 0;
-    padding: 20px 0;
+    margin: 24px 0 0;
+    padding: 20px 0 0;
     border-top: 1px solid #ede8e3;
-    border-bottom: 1px solid #ede8e3;
     display: flex;
     flex-direction: column;
     gap: 14px;
