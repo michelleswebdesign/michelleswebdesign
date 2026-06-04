@@ -931,17 +931,18 @@ section {
     }
 
     .nav-menu.open {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: rgba(23, 20, 18, 0.96);
-        padding: 20px;
-        gap: 20px;
-        text-align: center;
-    }
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(23, 20, 18, 0.96);
+    padding: 24px 20px;
+    gap: 20px;
+    text-align: center;
+    z-index: 1001;
+}
 
     .menu-toggle {
     display: block;
