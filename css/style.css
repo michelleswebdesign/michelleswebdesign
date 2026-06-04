@@ -169,7 +169,7 @@ section {
     color: var(--text);
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 12px;
 }
 
 .nav-logo {
@@ -182,12 +182,12 @@ section {
     display: flex;
     flex-direction: column;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     line-height: 1.1;
 }
 
 .logo-text small {
-    font-size: .95rem;
+    font-size: .9rem;
     font-weight: 500;
 }
 
@@ -216,33 +216,8 @@ section {
     transform: translateY(-2px);
 }
 
-.page-header {
-    position: relative;
-    background: var(--bg-soft);
-    padding: 24px 0;
-}
-
-
 .menu-toggle {
     display: none;
-}
-
-/* Dark header variant (contact, services, thank you pages) */
-
-.dark-logo {
-    color: var(--text);
-}
-
-.dark-logo .logo-mark {
-    border: 1px solid rgba(0,0,0,.12);
-}
-
-.page-nav a {
-    color: var(--text);
-}
-
-.page-nav .nav-cta {
-    color: white;
 }
 
 /* =========================
