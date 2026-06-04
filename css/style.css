@@ -181,12 +181,14 @@ section {
 .logo-text {
     display: flex;
     flex-direction: column;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.1;
 }
 
 .logo-text small {
-    font-size: .8rem;
-    font-weight: 400;
+    font-size: .95rem;
+    font-weight: 500;
 }
 
 .nav-menu {
