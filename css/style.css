@@ -889,16 +889,18 @@ section {
         padding: 80px 0;
     }
 
-.hero {
+.hero.hero {
     min-height: 100vh;
     background-position: center right;
-    display: block;
-    padding-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 150px;
 }
 
 .hero-content {
     text-align: center;
     padding-top: 0;
+    transform: translateY(-70px);
 }
 
 .hero-content .eyebrow {
