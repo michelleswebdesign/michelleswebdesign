@@ -889,23 +889,24 @@ section {
         padding: 80px 0;
     }
 
-    .hero {
-        min-height: 100vh;
-        background-position: center right;
-    }
+.hero {
+    min-height: 100vh;
+    background-position: center right;
+    align-items: flex-start;
+}
 
-    .hero-content {
-        text-align: center;
-        padding-top: 120px;
-    }
+.hero-content {
+    text-align: center;
+    padding-top: 240px;
+}
 
-    .hero-content .eyebrow {
-        max-width: 320px;
-        margin: 80px auto 24px;
-        font-size: 0.72rem;
-        letter-spacing: 2px;
-        line-height: 1.8;
-    }
+.hero-content .eyebrow {
+    max-width: 320px;
+    margin: 0 auto 24px;
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
 
     h1 {
         font-size: 3rem;
