@@ -1085,9 +1085,14 @@ section {
         padding: 20px 0;
     }
 
-    .nav-logo-wrap {
-        width: 100px;
-        max-width: 100px;
+    .site-header .nav-logo-wrap {
+    width: 78px;
+    max-width: 78px;
+    }
+
+    .page-header .nav-logo-wrap {
+    width: 100px;
+    max-width: 100px;
     }
 
     .nav-logo {
