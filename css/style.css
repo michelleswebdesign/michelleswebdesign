@@ -206,9 +206,16 @@ section {
 
 .nav-cta {
     background: var(--rose);
-    color: white;
-    padding: 12px 24px;
-    border-radius: 8px;
+    color: white !important;
+    padding: 14px 28px;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.nav-cta:hover {
+    background: var(--rose-dark);
+    transform: translateY(-2px);
 }
 
 .page-header {
