@@ -889,23 +889,24 @@ section {
         padding: 80px 0;
     }
 
-.hero.hero {
-    min-height: 100vh;
-    background-position: center right;
+section.hero {
+    min-height: 100svh;
     display: flex;
     align-items: flex-start;
-    padding-top: 150px;
+    justify-content: center;
+    padding: 135px 0 60px;
+    background-position: center right;
 }
 
-.hero-content {
+section.hero .hero-content {
     text-align: center;
     padding-top: 0;
-    transform: translateY(-70px);
+    margin-top: 0;
 }
 
-.hero-content .eyebrow {
+section.hero .hero-content .eyebrow {
     max-width: 320px;
-    margin: 0 auto 24px;
+    margin: 0 auto 20px;
     font-size: 0.72rem;
     letter-spacing: 2px;
     line-height: 1.8;
