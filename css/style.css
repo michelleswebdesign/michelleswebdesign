@@ -996,7 +996,7 @@ section {
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        padding: 135px 0 60px;
+        padding: 160px 0 60px;
         background-position: center right;
     }
 
@@ -1029,10 +1029,6 @@ section {
 
     .hero-buttons {
         justify-content: center;
-    }
-
-    .site-header {
-        top: 10px;
     }
 
     .contact-form {
@@ -1086,13 +1082,13 @@ section {
     }
 
     .site-header .nav-logo-wrap {
-    width: 90px;
-    max-width: 90px;
+    width: 105px;
+    max-width: 105px;
     }
 
     .page-header .nav-logo-wrap {
-    width: 100px;
-    max-width: 100px;
+    width: 105px;
+    max-width: 105px;
     }
 
     .nav-logo {
