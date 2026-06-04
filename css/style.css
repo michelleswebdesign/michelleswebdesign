@@ -942,12 +942,20 @@ section {
     }
 
     .menu-toggle {
-        display: block;
-        background: none;
-        border: none;
-        color: white;
-        font-size: 2rem;
-    }
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.site-header .menu-toggle {
+    color: white;
+}
+
+.page-header .menu-toggle {
+    color: var(--text);
+}
 
     .benefits-grid {
         grid-template-columns: repeat(2, 1fr);
