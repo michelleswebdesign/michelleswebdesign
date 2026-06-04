@@ -1021,6 +1021,26 @@ section.hero .hero-content .eyebrow {
     }
 }
 
+.footer-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-description {
+    max-width: 100%;
+}
+
+.footer-links {
+    align-items: center;
+}
+
 @media (max-width: 600px) {
 
     .addons-grid {
