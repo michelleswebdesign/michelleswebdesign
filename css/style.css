@@ -147,6 +147,7 @@ section {
    HEADER & NAV
 ========================= */
 
+/* Shared header layout */
 .site-header,
 .page-header {
     width: 100%;
@@ -154,28 +155,31 @@ section {
     padding: 22px 0;
 }
 
+/* Homepage header: sits over hero image */
 .site-header {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(23, 20, 18, 0.28);
     backdrop-filter: blur(8px);
 }
 
+/* Interior page header: sits in normal page flow */
 .page-header {
     position: relative;
     background: var(--bg-soft);
 }
 
+/* Navigation layout */
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Logo area */
 .logo {
     text-decoration: none;
-    color: var(--text);
     display: flex;
     align-items: center;
     gap: 12px;
@@ -202,9 +206,51 @@ section {
     font-weight: 500;
 }
 
+/* Desktop nav links */
 .nav-menu {
     display: flex;
-    align-items: center
+    align-items: center;
+    gap: 36px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Homepage colors */
+.site-header .logo,
+.site-header .nav-menu a,
+.site-header .menu-toggle {
+    color: white;
+}
+
+/* Interior page colors */
+.page-header .logo,
+.page-header .nav-menu a,
+.page-header .menu-toggle {
+    color: var(--text);
+}
+
+/* Contact CTA */
+.nav-cta {
+    background: var(--rose);
+    color: white !important;
+    padding: 14px 28px;
+    border-radius: 999px;
+    font-weight: 700;
+    transition: all .3s ease;
+}
+
+.nav-cta:hover {
+    background: var(--rose-dark);
+    transform: translateY(-2px);
+}
+
+/* Mobile hamburger hidden on desktop */
+.menu-toggle {
+    display: none;
+}
 
 /* =========================
    FOOTER
