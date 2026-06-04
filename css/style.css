@@ -1112,30 +1112,27 @@ section {
        MOBILE NAV LOGO
     ========================= */
 
-    .nav-logo-wrap {
-        width: 62px;
-        max-width: 62px;
-    }
+    /* =========================
+   MOBILE NAV LOGO
+========================= */
 
-    .nav-logo {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
+.nav-logo-wrap {
+    width: 78px;
+    max-width: 78px;
+}
 
-    .logo {
-        gap: 10px;
-    }
+.nav-logo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
-    .logo-text {
-        font-size: .95rem;
-        line-height: 1.1;
-    }
+.logo-text {
+    display: none;
+}
 
-    .logo-text small {
-        font-size: .78rem;
-    }
-
+.logo {
+    gap: 0;
 }
 
 @media (max-width: 600px) {
