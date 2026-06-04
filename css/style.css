@@ -333,6 +333,7 @@ section {
 .hero-content {
     max-width: 700px;
     color: white;
+    padding-top: 45px;
 }
 
 .hero-content h1 {
