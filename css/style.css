@@ -892,12 +892,13 @@ section {
 .hero {
     min-height: 100vh;
     background-position: center right;
-    align-items: flex-start;
+    display: block;
+    padding-top: 260px;
 }
 
 .hero-content {
     text-align: center;
-    padding-top: 240px;
+    padding-top: 0;
 }
 
 .hero-content .eyebrow {
