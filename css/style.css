@@ -711,7 +711,7 @@ section {
 .package-footer {
     margin-top: auto;
     padding-top: 24px;
-    border-top: 1px solid #ede8e3;
+    border-top: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
