@@ -683,6 +683,32 @@ section {
     flex-shrink: 0;
 }
 
+.package-addons {
+    margin: 24px 0;
+    padding: 20px 0;
+    border-top: 1px solid #ede8e3;
+    border-bottom: 1px solid #ede8e3;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.package-addons label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: .95rem;
+    color: var(--text);
+    line-height: 1.5;
+}
+
+.package-addons input[type="checkbox"] {
+    accent-color: var(--rose);
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
 .package-footer {
     margin-top: auto;
     padding-top: 24px;
