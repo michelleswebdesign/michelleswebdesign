@@ -1050,6 +1050,23 @@ section {
        align-items: center;
    }
 
+   .nav-logo {
+    width: 55px;
+}
+
+.logo {
+    gap: 10px;
+}
+
+.logo-text {
+    font-size: .9rem;
+    line-height: 1.1;
+}
+
+.logo-text small {
+    font-size: .75rem;
+}
+
 }
 
 @media (max-width: 600px) {
