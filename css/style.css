@@ -197,6 +197,11 @@ section {
     display: block;
 }
 
+/* Make homepage hero logo white */
+.site-header .nav-logo {
+    filter: brightness(0) invert(1);
+}
+
 .logo-text {
     display: flex;
     flex-direction: column;
