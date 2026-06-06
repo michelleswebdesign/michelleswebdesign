@@ -262,7 +262,7 @@ section {
 ========================= */
 
 .footer {
-    background: #111;
+    background: var(--bg-soft);
     padding-top: 80px;
 }
 
@@ -293,7 +293,7 @@ section {
 }
 
 .footer-description {
-    color: rgba(255,255,255,.7);
+    color: var(--text-light);
     max-width: 320px;
 }
 
@@ -303,16 +303,12 @@ section {
     font-size: 1.1rem;
 }
 
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+.footer-links h3 {
+    color: var(--text);
 }
 
 .footer-links a {
-    color: rgba(255,255,255,.7);
-    text-decoration: none;
-    transition: color .3s ease;
+    color: var(--text-light);
 }
 
 .footer-links a:hover {
