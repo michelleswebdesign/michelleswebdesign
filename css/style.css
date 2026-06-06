@@ -468,54 +468,39 @@ section {
     padding: 110px 0;
 }
 
-.why-feature-image {
-    max-width: 980px;
-    margin: 0 auto 70px;
-    border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 24px 50px rgba(0,0,0,.10);
-    background: var(--bg-soft);
-}
-
-.why-feature-image img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    object-position: center center;
-}
-
-.why-feature-content {
-    max-width: 920px;
+.why-content-center {
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
 
-.why-feature-content h2 {
-    margin-bottom: 20px;
+.why-content-center h2 {
+    margin-bottom: 24px;
 }
 
-.why-feature-content > p {
-    max-width: 680px;
-    margin: 0 auto 52px;
+.why-intro {
+    max-width: 700px;
+    margin: 0 auto 60px;
+    font-size: 1.1rem;
 }
 
 .why-feature-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 34px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
     text-align: left;
 }
 
-.why-feature-list h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+.why-item {
+    padding: 32px;
+    background: white;
+    border-radius: 14px;
+    border: 1px solid #ede8e3;
 }
 
-.why-feature-list p {
-    font-size: .95rem;
-    line-height: 1.65;
+.why-item h3 {
+    margin-bottom: 12px;
 }
-
 /* =========================
    FINAL CTA
 ========================= */
