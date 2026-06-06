@@ -76,6 +76,10 @@ p {
     margin: 0 auto;
 }
 
+.featured-work .container {
+    width: min(1450px, calc(100% - 60px));
+}
+
 section {
     padding: 110px 0;
 }
