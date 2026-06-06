@@ -1004,19 +1004,21 @@ section {
     background-position: 78% center;
 }
 
-    section.hero .hero-content {
-        text-align: center;
-        padding-top: 0;
-        margin-top: 0;
-    }
+ section.hero .hero-content {
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+}
 
-    section.hero .hero-content .eyebrow {
-        max-width: 320px;
-        margin: 0 auto 20px;
-        font-size: 0.72rem;
-        letter-spacing: 2px;
-        line-height: 1.8;
-    }
+  section.hero .hero-content .eyebrow {
+    max-width: 320px;
+    margin: 0 0 20px;
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
 
     h1 {
         font-size: 3rem;
