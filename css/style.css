@@ -340,10 +340,10 @@ section {
 .hero {
     min-height: 100vh;
     background-image:
-        linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+        linear-gradient(rgba(0,0,0,.42), rgba(0,0,0,.42)),
         url('../images/custom-web-design-workspace.webp');
     background-size: cover;
-    background-position: center right;
+    background-position: 68% center;
     display: flex;
     align-items: center;
 }
