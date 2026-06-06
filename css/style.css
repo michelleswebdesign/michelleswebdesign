@@ -296,18 +296,23 @@ section {
     max-width: 320px;
 }
 
-.footer-links h3 {
-    color: white;
-    margin-bottom: 20px;
-    font-size: 1.1rem;
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
 }
 
 .footer-links h3 {
     color: var(--text);
+    margin-bottom: 20px;
+    font-size: 1.1rem;
 }
 
 .footer-links a {
     color: var(--text-light);
+    text-decoration: none;
+    transition: color .3s ease;
 }
 
 .footer-links a:hover {
@@ -924,6 +929,7 @@ section {
     max-width: 520px;
     margin: 0 auto 40px;
 }
+
 
 /* =========================
    RESPONSIVE
