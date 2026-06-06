@@ -1014,7 +1014,8 @@ section {
     align-items: flex-start;
     justify-content: center;
     padding: 160px 0 60px;
-    background-position: 78% center;
+    background-size: cover;
+    background-position: 100% center;
 }
 
  section.hero .hero-content {
