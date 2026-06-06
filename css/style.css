@@ -289,7 +289,6 @@ section {
     width: 100%;
     height: auto;
     display: block;
-    filter: brightness(0) invert(1);
 }
 
 .footer-description {
