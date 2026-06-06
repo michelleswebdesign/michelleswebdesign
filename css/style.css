@@ -289,6 +289,7 @@ section {
     width: 100%;
     height: auto;
     display: block;
+    filter: brightness(0) invert(1);
 }
 
 .footer-description {
@@ -339,7 +340,7 @@ section {
         linear-gradient(rgba(0,0,0,.42), rgba(0,0,0,.42)),
         url('../images/custom-web-design-workspace.webp');
     background-size: cover;
-    background-position: 68% center;
+    background-position: 78% center;
     display: flex;
     align-items: center;
 }
