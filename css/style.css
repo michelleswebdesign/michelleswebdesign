@@ -474,13 +474,13 @@ section {
     border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 24px 50px rgba(0,0,0,.10);
+    background: var(--bg-soft);
 }
 
 .why-feature-image img {
     width: 100%;
-    aspect-ratio: 16 / 9;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center center;
 }
 
