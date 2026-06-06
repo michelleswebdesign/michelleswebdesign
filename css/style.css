@@ -345,10 +345,10 @@ section {
 }
 
 .hero-content {
-    max-width: 620px;
+    max-width: 700px;
     color: white;
     padding-top: 45px;
-    padding-left: 100;
+    transform: translateX(-220px);
 }
 
 .hero-content h1,
