@@ -352,6 +352,7 @@ section {
     max-width: 700px;
     color: white;
     padding-top: 45px;
+    margin-left: 0;
 }
 
 .hero-content h1 {
@@ -1004,7 +1005,7 @@ section {
     align-items: flex-start;
     justify-content: center;
     padding: 160px 0 60px;
-    background-position: 58% center;
+    background-position: 78% center;
 }
 
     section.hero .hero-content {
