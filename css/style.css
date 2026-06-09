@@ -1049,9 +1049,6 @@ section {
         linear-gradient(rgba(0,0,0,.58), rgba(0,0,0,.58)),
         url('../images/custom-web-design-workspace.webp');
 }
-   .hero-content {
-    transform: none;
-}
 
    section.hero {
     min-height: 100svh;
