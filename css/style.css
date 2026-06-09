@@ -341,10 +341,10 @@ section {
 .hero {
     min-height: 100vh;
     background-image:
-        linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)),
+         linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)),
         url('../images/custom-web-design-workspace.webp');
     background-size: cover;
-    background-position: 86% 52;
+    background-position: 86% 52%;
     display: flex;
     align-items: center;
 }
@@ -1009,13 +1009,12 @@ section {
     }
 
     .benefits-grid {
-    grid-template-columns: 1fr;
-    max-width: 340px;
-    margin: 0 auto;
+        grid-template-columns: 1fr;
+        max-width: 340px;
+        margin: 0 auto;
     }
 
     .work-grid,
-    .why-grid,
     .about-grid,
     .packages-grid,
     .contact-grid {
@@ -1041,40 +1040,38 @@ section {
         grid-template-columns: 1fr;
     }
 
-    /* rest of your mobile CSS */
-}
+    section.hero {
+        min-height: 100svh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 160px 0 60px;
+        background-image:
+            linear-gradient(rgba(0,0,0,.58), rgba(0,0,0,.58)),
+            url('../images/custom-web-design-workspace.webp');
+        background-size: cover;
+        background-position: 10% center;
+    }
 
-   section.hero {
-    background-image:
-        linear-gradient(rgba(0,0,0,.58), rgba(0,0,0,.58)),
-        url('../images/custom-web-design-workspace.webp');
-}
+    .hero-content {
+        transform: none;
+    }
 
-   section.hero {
-    min-height: 100svh;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 160px 0 60px;
-    background-size: cover;
-    background-position: 10% center;
-}
+    section.hero .hero-content {
+        text-align: left;
+        padding-top: 0;
+        margin-top: 0;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
 
- section.hero .hero-content {
-    text-align: left;
-    padding-top: 0;
-    margin-top: 0;
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
-  section.hero .hero-content .eyebrow {
-    max-width: 320px;
-    margin: 0 0 20px;
-    font-size: 0.72rem;
-    letter-spacing: 2px;
-    line-height: 1.8;
-}
+    section.hero .hero-content .eyebrow {
+        max-width: 320px;
+        margin: 0 0 20px;
+        font-size: 0.72rem;
+        letter-spacing: 2px;
+        line-height: 1.8;
+    }
 
     h1 {
         font-size: 3rem;
@@ -1083,14 +1080,14 @@ section {
 
     .hero-description {
         max-width: 320px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
         font-size: 1.05rem;
         line-height: 1.7;
     }
 
     .hero-buttons {
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .contact-form {
@@ -1109,8 +1106,6 @@ section {
     }
 
     .footer-brand {
-        display: flex;
-        flex-direction: column;
         align-items: center;
     }
 
@@ -1143,7 +1138,7 @@ section {
         padding: 20px 0;
     }
 
-      .nav-logo {
+    .nav-logo {
         width: 100%;
         height: auto;
         display: block;
