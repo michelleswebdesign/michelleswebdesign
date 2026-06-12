@@ -30,7 +30,7 @@ export async function onRequestPost(context) {
 const addonPrices = {
   EXTRA_PAGE: {
     name: "Additional Page",
-    amount: 7500
+    amount: 10000
   },
   CONTENT_HELP: {
     name: "Content Help",
