@@ -107,6 +107,14 @@ section {
     margin-bottom: 18px;
 }
 
+.intro-pricing-note {
+    font-size: .8rem;
+    font-style: italic;
+    color: var(--text-light);
+    opacity: .75;
+    margin-top: 12px;
+}
+
 /* =========================
    BUTTONS
 ========================= */
@@ -839,6 +847,12 @@ section {
     font-size: .8rem;
     color: var(--text-light);
     letter-spacing: 1px;
+}
+
+.package-note {
+    font-size: .85rem;
+    font-style: italic;
+    margin-bottom: 0;
 }
 
 .bundle-section {
