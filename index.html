@@ -9,7 +9,13 @@
 
   <meta name="description" content="Michelle's Web Design creates custom, mobile-friendly websites for small businesses, churches, ministries, and ecommerce brands." />
 
-   <!-- Meta Verify -->
+  <!-- Canonical -->
+  <link rel="canonical" href="https://michelleswebdesign.net/" />
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#D7AAA5" />
+
+  <!-- Meta Verify -->
   <meta name="facebook-domain-verification" content="8gvyw3lcbduxsq30s7hhuunamxl0xa" />
 
   <!-- Open Graph -->
@@ -25,11 +31,29 @@
   <meta name="twitter:description" content="Beautiful websites designed with purpose." />
   <meta name="twitter:image" content="https://michelleswebdesign.net/images/social-share.jpg" />
 
+  <!-- Favicon -->
+  <link rel="icon" href="images/michelles-web-design-logo.svg" type="image/svg+xml" />
+
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Michelle's Web Design",
+    "url": "https://michelleswebdesign.net",
+    "email": "michelleswebdesign@gmail.com",
+    "description": "Custom web design services for small businesses, churches, ministries, and ecommerce brands.",
+    "serviceType": "Web Design",
+    "areaServed": "United States",
+    "priceRange": "$150 – $1,200"
+  }
+  </script>
 </head>
 
 <body>
@@ -53,7 +77,7 @@
       </a>
 
       <button class="menu-toggle" aria-label="Open navigation menu">
-        ☰
+        &#9776;
       </button>
 
       <nav class="nav-menu">
@@ -80,8 +104,8 @@
         </p>
 
         <div class="hero-buttons">
-          <a href="services.html" class="btn btn-primary">Services</a>
-          <a href="#contact" class="btn btn-primary">Contact</a>
+          <a href="services.html" class="btn btn-primary">View Services</a>
+          <a href="contact.html" class="btn btn-secondary">Get a Quote</a>
         </div>
       </div>
     </section>
@@ -90,31 +114,31 @@
       <div class="container benefits-grid">
 
         <div class="benefit-card">
-          <span class="benefit-icon">◇</span>
+          <span class="benefit-icon">&#9671;</span>
           <h3>Custom Web Design</h3>
           <p>Tailored to your brand, your goals, and your audience.</p>
         </div>
 
         <div class="benefit-card">
-          <span class="benefit-icon">⌁</span>
+          <span class="benefit-icon">&#8257;</span>
           <h3>Mobile Friendly</h3>
           <p>Designed to look clean and professional on every screen size.</p>
         </div>
 
         <div class="benefit-card">
-          <span class="benefit-icon">✦</span>
-          <h3>Fast & Reliable</h3>
+          <span class="benefit-icon">&#10022;</span>
+          <h3>Fast &amp; Reliable</h3>
           <p>Built with clean code for speed, clarity, and performance.</p>
         </div>
 
         <div class="benefit-card">
-          <span class="benefit-icon">⌕</span>
+          <span class="benefit-icon">&#8981;</span>
           <h3>SEO Ready</h3>
           <p>Structured to help your website get found online.</p>
         </div>
 
         <div class="benefit-card">
-          <span class="benefit-icon">♡</span>
+          <span class="benefit-icon">&#9825;</span>
           <h3>Personal Support</h3>
           <p>You work directly with me from start to finish.</p>
         </div>
@@ -139,7 +163,7 @@
 
             <article class="work-card">
                 <div class="work-image">
-                    <img src="images/auto-repair-website-design.webp" alt="Responsive Auto Repair Website Design">
+                    <img src="images/auto-repair-website-design.webp" alt="Responsive Auto Repair Website Design" loading="lazy">
                 </div>
 
                 <h3>Auto Repair Website</h3>
@@ -147,7 +171,7 @@
 
             <article class="work-card">
                 <div class="work-image">
-                    <img src="images/veterinary-clinic-website-design.webp" alt="Responsive Veterinary Clinic Website Design">
+                    <img src="images/veterinary-clinic-website-design.webp" alt="Responsive Veterinary Clinic Website Design" loading="lazy">
                 </div>
 
                 <h3>Veterinary Clinic Website</h3>
@@ -155,7 +179,7 @@
 
             <article class="work-card">
                 <div class="work-image">
-                    <img src="images/church-website-design.webp" alt="Responsive Church Website Design">
+                    <img src="images/church-website-design.webp" alt="Responsive Church Website Design" loading="lazy">
                 </div>
 
                 <h3>Church Website</h3>
@@ -163,7 +187,7 @@
 
             <article class="work-card">
                 <div class="work-image">
-                    <img src="images/ecommerce-website-design.webp" alt="Responsive Ecommerce Website Design">
+                    <img src="images/ecommerce-website-design.webp" alt="Responsive Ecommerce Website Design" loading="lazy">
                 </div>
 
                 <h3>Ecommerce Website</h3>
@@ -174,41 +198,38 @@
     </div>
 </section>
 
-<section class="why-section" id="why">
-    <div class="container why-content-center">
+<section class="process-section" id="how-it-works">
+    <div class="container">
 
-        <p class="eyebrow">Why Work With Me?</p>
+        <div class="section-heading">
+            <p class="eyebrow">Simple &amp; Straightforward</p>
+            <h2>How It Works</h2>
+            <p>
+                Getting your new website up and running is easier than you think. Here is what the process looks like from start to finish.
+            </p>
+        </div>
 
-        <h2>Design With Purpose</h2>
+        <div class="process-steps">
 
-        <p class="why-intro">
-            I help small businesses, churches, ministries, and ecommerce brands create websites that feel professional, trustworthy, and designed to grow with their business.
-        </p>
-
-        <div class="why-feature-list">
-
-            <div class="why-item">
-                <h3>Custom Design</h3>
-                <p>Every website is thoughtfully designed around your brand, audience, and goals.</p>
+            <div class="process-step">
+                <div class="process-number">01</div>
+                <h3>We Connect</h3>
+                <p>Tell me about your business and what you need. I'll ask a few questions and help you find the right package for your goals and budget.</p>
             </div>
 
-            <div class="why-item">
-                <h3>Mobile Responsive</h3>
-                <p>Your website will look beautiful and function seamlessly on desktop, tablet, and mobile devices.</p>
+            <div class="process-step">
+                <div class="process-number">02</div>
+                <h3>I Design</h3>
+                <p>I build your custom website around your brand, content, and audience. You'll review the design and share any feedback along the way.</p>
             </div>
 
-            <div class="why-item">
-                <h3>SEO-Friendly Foundation</h3>
-                <p>Built with clean structure and best practices to support visibility in search engines.</p>
-            </div>
-
-            <div class="why-item">
-                <h3>Personal Support</h3>
-                <p>You work directly with me throughout the process for clear communication and guidance.</p>
+            <div class="process-step">
+                <div class="process-number">03</div>
+                <h3>You Launch</h3>
+                <p>Once you love it, your website goes live. I'll make sure everything is connected, tested, and ready for your customers to find.</p>
             </div>
 
         </div>
-
     </div>
 </section>
     
@@ -216,13 +237,13 @@
     <div class="container final-cta-content">
         <p class="eyebrow">Ready to Get Started?</p>
 
-        <h2>Let’s Build Something Beautiful</h2>
+        <h2>Let's Build Something Beautiful</h2>
 
         <p class="final-cta-copy">
             Professional websites designed to help your business grow online.
         </p>
 
-<a href="contact.html" class="final-cta-button">Contact</a>
+        <a href="contact.html" class="final-cta-button">Contact</a>
     </div>
 </section>
 
@@ -265,7 +286,7 @@
 
   <div class="footer-bottom">
     <div class="container">
-      <p>© 2026 Michelle's Web Design. All rights reserved.</p>
+      <p>&copy; 2026 Michelle's Web Design. All rights reserved.</p>
     </div>
   </div>
 </footer>
