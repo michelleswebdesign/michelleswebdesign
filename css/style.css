@@ -855,6 +855,25 @@ section {
     flex-wrap: wrap;
 }
 
+.package-footer-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.agreement-link {
+    color: var(--text-light);
+    font-size: .82rem;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color .3s ease;
+}
+
+.agreement-link:hover {
+    color: var(--rose);
+}
+
 .package-code {
     font-size: .8rem;
     color: var(--text-light);
@@ -1295,6 +1314,10 @@ section {
 
     .package-body {
         padding: 28px;
+    }
+
+    .package-footer-actions {
+        align-items: flex-start;
     }
 
     .onboarding-addendum {
