@@ -22,7 +22,7 @@ export async function onRequestPost(context) {
     amount: 120000
   },
   BUNDLE: {
-    name: "Business Launch Bundle",
+    name: "Get Found on Google Bundle",
     amount: 25000
   }
 };
