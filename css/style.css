@@ -1095,7 +1095,13 @@ section {
     }
 
     .hero-buttons {
-        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-buttons .btn {
+        min-width: 220px;
+        text-align: center;
     }
 
     .contact-form {
