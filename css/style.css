@@ -147,13 +147,13 @@ section {
 }
 
 .btn-secondary {
-    border: 2px solid rgba(255,255,255,.7);
-    color: white;
-    background: transparent;
+    background: white;
+    color: var(--text);
+    border: none;
 }
 
 .btn-secondary:hover {
-    background: rgba(255,255,255,.12);
+    background: rgba(255,255,255,.88);
     transform: translateY(-2px);
 }
 
@@ -161,7 +161,6 @@ section {
    HEADER & NAV
 ========================= */
 
-/* Shared header layout */
 .site-header,
 .page-header {
     width: 100%;
@@ -178,20 +177,17 @@ section {
     padding-top: env(safe-area-inset-top);
 }
 
-/* Interior page header: sits in normal page flow */
 .page-header {
     position: relative;
     background: var(--bg-soft);
 }
 
-/* Navigation layout */
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Logo area */
 .logo {
     text-decoration: none;
     display: flex;
@@ -211,7 +207,6 @@ section {
     display: block;
 }
 
-/* Make homepage hero logo white */
 .site-header .nav-logo {
     filter: brightness(0) invert(1);
 }
@@ -225,7 +220,6 @@ section {
     font-weight: 500;
 }
 
-/* Desktop nav links */
 .nav-menu {
     display: flex;
     align-items: center;
@@ -237,21 +231,18 @@ section {
     font-weight: 600;
 }
 
-/* Homepage colors */
 .site-header .logo,
 .site-header .nav-menu a,
 .site-header .menu-toggle {
     color: white;
 }
 
-/* Interior page colors */
 .page-header .logo,
 .page-header .nav-menu a,
 .page-header .menu-toggle {
     color: var(--text);
 }
 
-/* Contact CTA */
 .nav-cta {
     background: var(--rose);
     color: white !important;
@@ -266,7 +257,6 @@ section {
     transform: translateY(-2px);
 }
 
-/* Mobile hamburger hidden on desktop */
 .menu-toggle {
     display: none;
 }
@@ -308,6 +298,23 @@ section {
 .footer-description {
     color: var(--text-light);
     max-width: 320px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    transition: color .3s ease;
+}
+
+.footer-social a:hover {
+    color: var(--rose);
 }
 
 .footer-links {
@@ -409,6 +416,7 @@ section {
     max-width: 700px;
     margin: 0 auto;
 }
+
 /* =========================
    BENEFITS
 ========================= */
@@ -1114,7 +1122,7 @@ section {
     }
 
     .hero-buttons .btn {
-        min-width: 220px;
+        width: 260px;
         text-align: center;
     }
 
@@ -1135,6 +1143,10 @@ section {
 
     .footer-brand {
         align-items: center;
+    }
+
+    .footer-social {
+        justify-content: center;
     }
 
     .footer-logo-wrap {
