@@ -988,6 +988,113 @@ section {
     margin: 0 auto 40px;
 }
 
+/* =========================
+   THANK YOU / ONBOARDING
+========================= */
+
+.thankyou-hero {
+    padding: 90px 0 80px;
+    background: var(--bg-soft);
+    text-align: center;
+}
+
+.thankyou-check {
+    width: 64px;
+    height: 64px;
+    background: var(--rose);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 28px;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.thankyou-hero h1 {
+    margin-bottom: 20px;
+}
+
+.thankyou-hero p {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.onboarding-section {
+    padding: 80px 0 100px;
+    background: white;
+}
+
+.onboarding-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    margin-bottom: 48px;
+}
+
+.onboarding-step {
+    background: var(--bg-soft);
+    border-radius: 20px;
+    padding: 40px 32px;
+    border: 1px solid #ede8e3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.onboarding-step.active {
+    background: white;
+    border-color: var(--rose);
+    box-shadow: 0 12px 32px rgba(215,170,165,.18);
+}
+
+.onboarding-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--rose);
+    opacity: .3;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.onboarding-step.active .onboarding-number {
+    opacity: 1;
+}
+
+.onboarding-step h3 {
+    margin-bottom: 14px;
+    color: var(--text);
+}
+
+.onboarding-step p {
+    margin-bottom: 28px;
+    font-size: .95rem;
+    flex: 1;
+}
+
+.onboarding-step .btn {
+    margin-top: auto;
+    width: 100%;
+}
+
+.onboarding-addendum {
+    background: var(--bg-soft);
+    border-radius: 16px;
+    padding: 28px 36px;
+    max-width: 800px;
+    margin: 0 auto 52px;
+    border-left: 4px solid var(--rose);
+}
+
+.onboarding-addendum p {
+    font-size: .92rem;
+    line-height: 1.75;
+    font-style: italic;
+}
+
 
 /* =========================
    RESPONSIVE
@@ -1068,6 +1175,12 @@ section {
     .footer-about {
         grid-column: 1 / -1;
         order: -1;
+    }
+
+    .onboarding-steps {
+        grid-template-columns: 1fr;
+        max-width: 520px;
+        margin: 0 auto 40px;
     }
 }
 
@@ -1165,6 +1278,10 @@ section {
 
     .footer-links {
         align-items: center;
+    }
+
+    .onboarding-addendum {
+        padding: 24px;
     }
 
     .nav-logo {
