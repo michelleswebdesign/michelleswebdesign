@@ -861,16 +861,20 @@ section {
 
 .package-image {
     width: 380px;
+    min-height: 300px;
     flex-shrink: 0;
     overflow: hidden;
     background: var(--bg-soft);
+    display: flex;
+    flex-direction: column;
 }
 
 .package-image img {
     width: 100%;
-    height: 100%;
+    flex: 1;
     object-fit: cover;
     display: block;
+    min-height: 0;
 }
 
 .package-body {
@@ -1569,6 +1573,7 @@ section {
     .package-image {
         width: 100%;
         height: 240px;
+        min-height: unset;
     }
 
     .package-body {
